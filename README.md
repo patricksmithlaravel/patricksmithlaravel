@@ -16,43 +16,27 @@
 
 <!-- Replace this with a few sentences in your own voice: what you do, what you care about, what you're working on now. -->
 
-I like small, sharp tools: a wallet that does one job well, an explorer that loads fast, a library that makes API testing boring. Most of my public work right now is around **Mochimo v3**, a post-quantum chain built on WOTS+ one-time signatures.
+Most of my public work right now is on Mochimo v3, a post-quantum chain that signs transactions with WOTS+ one-time signatures. Outside Mochimo, I build API testing tools in Python and work on the Voynich manuscript challenge.
 
 ---
 
 ## Mochimo tooling
 
-### 🔐 [mcm-rust-cli-wallet](https://github.com/patricksmithlaravel/mcm-rust-cli-wallet) · `Rust`
-Command-line wallet for Mochimo v3. **WOTS+ one-time signatures**, 40-byte `tag||hash` addresses, and an encrypted keystore whose key index only moves forward, so a one-time key can never be reused. Talks to the network through a Mesh API client. Pure Rust, no C toolchain.
-
-### 🪟 [mcm-rust-cli-windows](https://github.com/patricksmithlaravel/mcm-rust-cli-windows) · `Rust`
-The same wallet, extended to build for Windows alongside Linux and macOS.
-
-### 🔎 [mcm-block-explorer](https://github.com/patricksmithlaravel/mcm-block-explorer) · `HTML`
-A lightweight Mochimo block explorer.
+- **[mcm-rust-cli-wallet](https://github.com/patricksmithlaravel/mcm-rust-cli-wallet)** (Rust): A command-line wallet for Mochimo v3, written in pure Rust with no C toolchain. It signs with WOTS+ one-time signatures and uses 40-byte `tag||hash` addresses. Keys live in an encrypted keystore whose index only moves forward, so the wallet never reuses a one-time key. It talks to the network through a Mesh API client.
+- **[mcm-rust-cli-windows](https://github.com/patricksmithlaravel/mcm-rust-cli-windows)** (Rust): The same wallet, extended to build for Windows alongside Linux and macOS. The Windows build compiles but hasn't been run on Windows yet.
+- **[mcm-block-explorer](https://github.com/patricksmithlaravel/mcm-block-explorer)** (HTML): A lightweight Mochimo block explorer.
 
 ---
 
 ## Other projects
 
-### 📮 [PostPy](https://github.com/patricksmithlaravel/PostPy) · `Python`
-Python library for API automation and testing: HTTP requests, endpoint collections, environment variables, and a built-in mock server for prototyping.
-
-### 📜 [voynich](https://github.com/patricksmithlaravel/voynich) · `Python`
-Public research workspace, evidence, and grading methodology for the Voynich manuscript challenge at [voynich.win](https://voynich.win).
+- **[PostPy](https://github.com/patricksmithlaravel/PostPy)** (Python): A library for API automation and testing. It makes HTTP requests, organizes endpoints into collections, handles environment variables, and runs a mock server for prototyping.
+- **[voynich](https://github.com/patricksmithlaravel/voynich)** (Python): Public research workspace, evidence, and grading methodology for the Voynich manuscript challenge at [voynich.win](https://voynich.win).
 
 ---
 
 ## Toolbox
 
-**Languages** · Rust · TypeScript · Python · HTML / CSS
-**Crypto / chain** · WOTS+ · Mochimo v3 · Mesh API
-**Platforms** · Linux · macOS · Windows
-
----
-
-<div align="center">
-
-*Small tools, sharp edges.*
-
-</div>
+- **Languages** · Rust · TypeScript · Python · HTML / CSS
+- **Crypto / chain** · WOTS+ · Mochimo v3 · Mesh API
+- **Platforms** · Linux · macOS · Windows
