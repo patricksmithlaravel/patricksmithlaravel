@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0b10"/>
+      <stop offset="1" stop-color="#16121c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff6f61"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#221c2a" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="14" fill="url(#grid)" opacity="0.5"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="none" stroke="#2a2233" stroke-width="1"/>
+
+  <!-- terminal chrome -->
+  <circle cx="34" cy="34" r="6" fill="#ff5f56"/>
+  <circle cx="56" cy="34" r="6" fill="#ffbd2e"/>
+  <circle cx="78" cy="34" r="6" fill="#27c93f"/>
+  <text x="600" y="39" text-anchor="middle" font-size="13" fill="#5a4f66">patrick@dev:~/projects</text>
+  <line x1="0" y1="60" x2="1200" y2="60" stroke="#2a2233" stroke-width="1"/>
+
+  <!-- prompt -->
+  <text x="48" y="118" font-size="20"><tspan fill="#ff6f61">~</tspan><tspan fill="#ffb347" dx="12">$</tspan><tspan fill="#b8aec4" dx="12">cat profile.md</tspan></text>
+
+  <!-- name -->
+  <text x="46" y="188" font-size="60" font-weight="700" fill="url(#accent)" filter="url(#glow)" letter-spacing="1">patricksmithlaravel</text>
+
+  <!-- roles: edit these two lines to describe yourself -->
+  <text x="50" y="234" font-size="21" fill="#e6dfee">Rust · Python · TypeScript developer</text>
+  <text x="50" y="266" font-size="18" fill="#8c8199">Mochimo wallet &amp; explorer tooling · API automation · research side-quests</text>
+
+  <!-- tag row (tspans flow automatically, no x math needed) -->
+  <text x="50" y="300" font-size="14">
+    <tspan fill="#ffb347">WOTS+</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ffb347">Mochimo v3</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ff6f61">Rust CLI</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ff6f61">Mesh API</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#b8aec4">API testing</tspan>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="274" y="102" width="12" height="22" fill="#ffb347">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
