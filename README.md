@@ -24,7 +24,7 @@ Most of my public work right now is on Mochimo v3, a post-quantum chain that sig
 
 - **[mcm-rust-cli-wallet](https://github.com/patricksmithlaravel/mcm-rust-cli-wallet)** (Rust): A command-line wallet for Mochimo v3, written in pure Rust with no C toolchain. It signs with WOTS+ one-time signatures and uses 40-byte `tag||hash` addresses. Keys live in an encrypted keystore whose index only moves forward, so the wallet never reuses a one-time key. It talks to the network through a Mesh API client.
 - **[mcm-rust-cli-windows](https://github.com/patricksmithlaravel/mcm-rust-cli-windows)** (Rust): The same wallet, extended to build for Windows alongside Linux and macOS. The Windows build compiles but hasn't been run on Windows yet.
-- **[mcm-block-explorer](https://github.com/patricksmithlaravel/mcm-block-explorer)** (HTML): A lightweight Mochimo block explorer.
+- **[mcm-block-explorer](https://github.com/patricksmithlaravel/mcm-block-explorer)** (HTML): A lightweight Mochimo block explorer. Try it at [www.mcmbx.com](https://www.mcmbx.com/).
 
 ---
 
