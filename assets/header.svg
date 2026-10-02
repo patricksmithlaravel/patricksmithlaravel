@@ -25,7 +25,7 @@
   <circle cx="34" cy="34" r="6" fill="#ff5f56"/>
   <circle cx="56" cy="34" r="6" fill="#ffbd2e"/>
   <circle cx="78" cy="34" r="6" fill="#27c93f"/>
-  <text x="600" y="39" text-anchor="middle" font-size="13" fill="#5a4f66">patrick@dev:~/projects</text>
+  <text x="600" y="39" text-anchor="middle" font-size="13" fill="#5a4f66">kami-sama@dev:~/projects</text>
   <line x1="0" y1="60" x2="1200" y2="60" stroke="#2a2233" stroke-width="1"/>
 
   <!-- prompt -->
@@ -35,12 +35,12 @@
   <text x="46" y="188" font-size="60" font-weight="700" fill="url(#accent)" filter="url(#glow)" letter-spacing="1">patricksmithlaravel</text>
 
   <!-- roles: edit these two lines to describe yourself -->
-  <text x="50" y="234" font-size="21" fill="#e6dfee">Rust · Python · TypeScript developer</text>
-  <text x="50" y="266" font-size="18" fill="#8c8199">Mochimo wallet &amp; explorer tooling · API automation · research side-quests</text>
+  <text x="50" y="234" font-size="21" fill="#e6dfee">Rust · Python · TypeScript · JavaScript developer</text>
+  <text x="50" y="266" font-size="18" fill="#8c8199">Mochimo wallet &amp; explorer · Ansible block builder · API testing tools</text>
 
   <!-- tag row (tspans flow automatically, no x math needed) -->
   <text x="50" y="300" font-size="14">
-    <tspan fill="#ffb347">WOTS+</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ffb347">Mochimo v3</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ff6f61">Rust CLI</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ff6f61">Mesh API</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#b8aec4">API testing</tspan>
+    <tspan fill="#ffb347">WOTS+</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ffb347">Mochimo v3</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ff6f61">Ansible</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#ff6f61">Cisco IOS / NX-OS</tspan><tspan fill="#5a4f66">  ·  </tspan><tspan fill="#b8aec4">API testing</tspan>
   </text>
 
   <!-- blinking cursor -->
